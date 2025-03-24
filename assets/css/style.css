@@ -1,9 +1,115 @@
+/* Font face */
 @font-face {
-    font-family: "Gothic_A1";
-    src: url(../fonts/Gothic_A1/);
+    font-family: "Gothic";
+    src: url(../fonts/Gothic_A1/GothicA1-Black.ttf);
 }
 
 @font-face {
-    font-family: MedievalSharp;
+    font-family: "MedievalSharp";
     src: url(../fonts/MedievalSharp/MedievalSharp-Regular.ttf);
+}
+
+/* Global */
+body {
+    margin: 0;
+    font-family: "MedievalSharp";
+    background-image: url(../img/smoke-bg.jpg);
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    color: #ddc9a7;
+    font-size: xx-large;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: "Gothic";
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-menu {
+    color: #ddc9a7;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.main-menu a {
+    color: #ddc9a7;
+}
+
+.main-menu .button {
+    color: #0a0a0a;
+    background-color: #ddc9a7;
+    border-radius: 10%;
+    padding: 10px 15px;
+}
+
+/* Section banner */
+.banner {
+    position: relative;
+    height: 100vh;
+}
+
+.banner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-banner {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-banner a {
+    color: white;
+    border: solid 1px #ddc9a7;
+    border-radius: 15%;
+    padding: 15px 20px;
+    font-size: larger;
+}
+
+/*  Section awards */
+
+.award-content {
+    border: solid 1px #ddc9a7;
+    border border-radius: 10%;
+    display: flex;
+    color:
 }
