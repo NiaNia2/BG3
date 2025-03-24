@@ -5,6 +5,11 @@
 }
 
 @font-face {
+    font-family: "Gothic-regular";
+    src: url(../fonts/Gothic_A1/GothicA1-Regular.ttf);
+}
+
+@font-face {
     font-family: "MedievalSharp";
     src: url(../fonts/MedievalSharp/MedievalSharp-Regular.ttf);
 }
@@ -23,15 +28,20 @@ li {
 h1 {
     color: #ddc9a7;
     font-size: xx-large;
+
 }
 
 h2 {
     text-transform: uppercase;
+    color: #ddc9a7;
+    font-size: 5rem;
 }
 
 h3 {
-    font-family: "Gothic";
+    font-family: "Gothic-regular";
     text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
 }
 
 a {
@@ -100,7 +110,7 @@ header {
 .text-banner a {
     color: white;
     border: solid 1px #ddc9a7;
-    border-radius: 15%;
+    border-radius: 0.5rem;
     padding: 15px 20px;
     font-size: larger;
 }
@@ -109,7 +119,19 @@ header {
 
 .award-content {
     border: solid 1px #ddc9a7;
-    border border-radius: 10%;
+    border-radius: 0.8rem;
     display: flex;
-    color:
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    margin: 5rem auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 50%;
 }
