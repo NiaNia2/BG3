@@ -141,9 +141,9 @@ img {
 
 /* section races */
 .races-img {
-    border: 1px solid yellow;
+    border: 1px solid #ddc9a7;
     border-radius: 0.8rem;
-    width: 50%;
+    width: 48%;
     background-image: url("../img/races-bg.jpg");
 
     display: flex;
@@ -155,9 +155,9 @@ img {
 
 
 .elf {
-    border: 1px solid yellow;
+    border: 1px solid #ddc9a7;
     border-radius: 0.8rem;
-    width: 50%;
+    width: 48%;
     color: #ddc9a7;
     text-align: center;
     gap: 1rem;
@@ -174,11 +174,46 @@ img {
 
 .races {
     width: 30%;
-    color: #ddc9a7;
+    color: white;
     text-align: center;
     padding: 2rem 0;
 }
 
 .races p {
     font-family: "medievalSharp";
+}
+
+.elf h2::after {
+    content: "";
+    border: 1px solid #ddc9a7;
+}
+
+/* Section Buy now */
+#buy-now {
+    background-image: url("../img/buy-now-background.jpg");
+    background-size: cover;
+    margin: 2rem 0;
+
+    display: flex;
+}
+
+.buy-now-content {
+    width: 55%;
+    gap: 2rem;
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.buy-now-text {
+    color: white;
+}
+
+.buy-now-click a {
+    color: white;
+    border: 1px solid #ddc9a7;
+    border-radius: 0.8rem;
+    padding: 0.5rem 1rem;
 }
