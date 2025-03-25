@@ -21,6 +21,10 @@ body {
     background-image: url(../img/smoke-bg.jpg);
 }
 
+p {
+    font-family: "Gothic-regular";
+}
+
 li {
     list-style: none;
 }
@@ -34,14 +38,14 @@ h1 {
 h2 {
     text-transform: uppercase;
     color: #ddc9a7;
-    font-size: 5rem;
+
 }
 
 h3 {
     font-family: "Gothic-regular";
     text-transform: uppercase;
     color: white;
-    font-size: 2rem;
+
 }
 
 a {
@@ -123,15 +127,58 @@ header {
     display: flex;
     align-items: center;
     width: 80%;
-    height: 30%;
     margin: 5rem auto;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
+    width: 20%;
+
 }
 
 img {
     width: 50%;
+}
+
+/* section races */
+.races-img {
+    border: 1px solid yellow;
+    border-radius: 0.8rem;
+    width: 50%;
+    background-image: url("../img/races-bg.jpg");
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+.elf {
+    border: 1px solid yellow;
+    border-radius: 0.8rem;
+    width: 50%;
+    color: #ddc9a7;
+    text-align: center;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.races-flex {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 0 2rem;
+}
+
+.races {
+    width: 30%;
+    color: #ddc9a7;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.races p {
+    font-family: "medievalSharp";
 }
